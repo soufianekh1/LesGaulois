@@ -24,7 +24,7 @@ public class Village {
 	
 	public void ajouterHabitant(Gaulois gaulois) {
 		villageois[nbVillageois]=gaulois;
-		nbVillageois+=1;
+		nbVillageois++;
 	
 	}
 	
@@ -50,7 +50,7 @@ public class Village {
 		
 		Chef abraracourcix=new Chef("Abraracourcix",6 ,village);
 		village.setChef(abraracourcix);
-		
+	
 		Gaulois asterix = new Gaulois("Astérix",8);
 		
 		
